@@ -1,0 +1,187 @@
+@import "blueprint/reset";
+@import "partials/base";
+@import "partials/awesomebutton";
+@import "blueprint";
+@import "compass/css3";
+
+$accent_color: #d0a635;
+$base_color: #002244;
+$experimental-support-for-microsoft: true;
+
+/* Sticky Footer */
+html, body {height: 100%;}
+#wrap {min-height: 100%;}
+#main {overflow:auto;
+	padding-bottom: 200px;}  /* must be same height as the footer */
+footer {position: relative;
+	margin-top: -200px; /* negative value of footer height */
+	height: 199px;
+	clear:both;} 
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+/* End Sticky Footer */
+
+body.two-col {
+  .container {
+    @include container; 
+  }
+  //header, footer {
+  //  @include column($blueprint-grid-columns); 
+  //}
+  #content div.container #sidebar, #actionbuttons {
+    $sidebar-columns: floor($blueprint-grid-columns / 3);
+    @include column($sidebar-columns, true);
+  }
+  #content div.container article, #logo {
+    $content-columns: ceil(2 * $blueprint-grid-columns / 3);
+    @include column($content-columns); 
+  } 
+}
+
+header, footer {
+  display: block;
+}
+
+body {
+  @include blueprint-typography-defaults;
+  font-family: $blueprint-font-family;
+  font-size: 14px; 
+  background: $base_color;
+  a {
+    color: $accent_color;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h1, h2, h3 {
+    color: $accent_color;
+  }
+}
+
+.awesome {
+  @include awesome-button;
+}
+.awesome.blue {
+  background: $base_color;
+}
+.awesome.blue:hover {
+  background: $base_color + #222;
+}
+
+header#page-header {
+  border-bottom: 1px solid black;
+  background: white;
+  div.container {
+    div#logo {
+      a {
+        background: url(../images/logo.png);
+        text-indent: -9999px;
+        display: block;
+        height: 96px;
+        width: 409px;
+        margin: 1em;
+      }
+    }
+    div#actionbuttons {
+      text-align: center;
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    nav {
+      @include column($blueprint-grid-columns);
+      a {
+        color: black;
+        span {
+          font-size: 1.25em;
+          color: $base_color;
+          font-weight: bold;
+        }
+      }
+      ul {
+        width: $blueprint-container-size - 2px ;
+        @include linear-gradient(color-stops(#f1c657, #d0a635));
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#f1c657, endColorstr=#d0a635);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#f1c657, endColorstr=#d0a635)";
+        
+        border: 1px solid black;
+        height: 60px;
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        display: table;
+        li {
+          text-align: center;
+          //background: #777;
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+#content {
+  color: #ccc;
+  font-weight: 200;
+  padding-top: 1em;
+  div.container {
+    article {
+      header {
+      }
+    }
+    div#sidebar {
+      header {
+      }
+    }
+  }
+}
+
+footer#site-footer {
+  @include linear-gradient(color-stops(#001122, #002244));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#001122, endColorstr=#002244);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#001122, endColorstr=#002244)";
+
+  border-top: 1px solid #333;
+  color: #ccc;
+  font-weight: 200;
+  a {
+    color: #ccc;
+  }
+  div.container {
+    padding-top: 1em;
+    table {
+      margin: 0;
+      width: 100%;
+      td {
+        width: 1%; 
+        vertical-align: top;
+        font-weight: 200;
+        span {
+          margin-bottom: 1em;
+          display: block;
+          a {
+            color: #f1c657;
+          }
+        }
+        ul {
+          list-style: none;
+          padding-left: 0;
+        }
+      } 
+    }
+    div#copyright {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
