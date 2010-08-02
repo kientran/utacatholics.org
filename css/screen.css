@@ -473,23 +473,27 @@ header#page-header div.container nav ul li {
   padding-top: 1em;
 }
 /* line 137, ../src/screen.scss */
+#content blockquote {
+  color: #ccc;
+}
+/* line 140, ../src/screen.scss */
 #content table {
   background: #001122;
   border: 1px solid #333;
   border-collapse: collapse;
 }
-/* line 141, ../src/screen.scss */
+/* line 144, ../src/screen.scss */
 #content table td {
   border: 1px solid #333;
 }
-/* line 153, ../src/screen.scss */
+/* line 156, ../src/screen.scss */
 #content div.container div#sidebar ul {
   font-size: 1.2em;
   list-style: none;
   padding-left: 0;
 }
 
-/* line 162, ../src/screen.scss */
+/* line 165, ../src/screen.scss */
 footer#site-footer {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #001122), color-stop(100%, #002244));
   background-image: -moz-linear-gradient(top, #001122 0%, #002244 100%);
@@ -499,40 +503,40 @@ footer#site-footer {
   color: #ccc;
   font-weight: 200;
 }
-/* line 170, ../src/screen.scss */
+/* line 173, ../src/screen.scss */
 footer#site-footer a {
   color: #ccc;
 }
-/* line 173, ../src/screen.scss */
+/* line 176, ../src/screen.scss */
 footer#site-footer div.container {
   padding-top: 1em;
 }
-/* line 175, ../src/screen.scss */
+/* line 178, ../src/screen.scss */
 footer#site-footer div.container table {
   margin: 0;
   width: 100%;
 }
-/* line 178, ../src/screen.scss */
+/* line 181, ../src/screen.scss */
 footer#site-footer div.container table td {
   width: 1%;
   vertical-align: top;
   font-weight: 200;
 }
-/* line 182, ../src/screen.scss */
+/* line 185, ../src/screen.scss */
 footer#site-footer div.container table td span {
   margin-bottom: 1em;
   display: block;
 }
-/* line 185, ../src/screen.scss */
+/* line 188, ../src/screen.scss */
 footer#site-footer div.container table td span a {
   color: #f1c657;
 }
-/* line 189, ../src/screen.scss */
+/* line 192, ../src/screen.scss */
 footer#site-footer div.container table td ul {
   list-style: none;
   padding-left: 0;
 }
-/* line 195, ../src/screen.scss */
+/* line 198, ../src/screen.scss */
 footer#site-footer div.container div#copyright {
   width: 100%;
   text-align: center;
