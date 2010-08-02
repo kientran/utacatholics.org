@@ -87,3 +87,11 @@ body.bp button {
   position: relative;
   top: 0.25em;
 }
+
+/* line 19, ../src/ie.scss */
+nav ul li {
+  float: left;
+  width: 16%;
+  height: 60px;
+  padding-top: 12px;
+}
