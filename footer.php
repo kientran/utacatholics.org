@@ -18,7 +18,7 @@
         <li><a href="<?php echo $blogurl ?>/links#">About the UCC</a></li>
         <li><a href="<?php echo $blogurl ?>/staff">Staff</a></li>
         <li><a href="<?php echo $blogurl ?>/pastoral-council">Pastoral Council</a></li>
-        <li><a href="<?php echo $blogurl ?>/map">Location</a></li>
+        <li><a href="<?php echo $blogurl ?>/location">Location</a></li>
       </ul>
     </div>
         </td>
@@ -38,8 +38,8 @@
       <ul>
         <li><a href="#">Photos</a></li>
         <li><a href="#">Videos</a></li>
-        <li><a href="#">Weekly Buliten</a></li>
-        <li><a href="#">Minister's Minute</a></li>
+        <li><a href="<?php echo $blogurl ?>/weekly-bulletin">Weekly Bulletin</a></li>
+        <li><a href="<?php echo $blogurl ?>/blog">Minister's Minute</a></li>
       </ul>
     </div>
         </td>
