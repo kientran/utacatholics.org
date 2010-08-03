@@ -29,7 +29,7 @@ get_header(); ?>
       } else {
 
         $to = get_option('admin_email');
-        $subject = "Registration Form:". $_POST['contact_name']; 
+        $subject = "Registration Form: ". $_POST['contact_name']; 
         $body = "\r\n Campus Minister,";
         $body .= "\r\n Someone has registered via the website:";
         $body .= "\r\n Name: \t" . $_POST['contact_name'];
