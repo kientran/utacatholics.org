@@ -42,7 +42,7 @@
 <div id="wrap"><div id="main">
 <header id="page-header">
   <div class="container">
-  <div id="logo"><a href="#">University Catholic Community</a></div>
+  <div id="logo"><a href="<?php get_bloginfo('url'); ?>">University Catholic Community</a></div>
   <div id="actionbuttons">
     New Student?<br />
     <a href="#" class="awesome blue" id="registernow">Register now</a>
