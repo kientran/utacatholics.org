@@ -15,7 +15,7 @@
     <div class="footitem">
       <span class="foothead"><a href="<?php echo $blogurl ?>/about">ABOUT</a></span> 
       <ul>
-        <li><a href="<?php echo $blogurl ?>/links#">About the UCC</a></li>
+        <li><a href="<?php echo $blogurl ?>/about">About the UCC</a></li>
         <li><a href="<?php echo $blogurl ?>/staff">Staff</a></li>
         <li><a href="<?php echo $blogurl ?>/pastoral-council">Pastoral Council</a></li>
         <li><a href="<?php echo $blogurl ?>/location">Location</a></li>
