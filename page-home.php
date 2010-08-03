@@ -8,7 +8,7 @@ get_header('home'); ?>
 <div id="content">
 <div class="container">
 
-<div id="top-main">
+<div id="article-container">
     <img src='<?php bloginfo( 'template_url' ); ?>/images/main-graphic3.jpg' />
     <div id="smallboxes">
       <div class="box"><a href="#">
@@ -38,15 +38,15 @@ get_header('home'); ?>
 
   </div>
   <div id="sidebar">
-    <h2>Join us for Mass</h2>
-    <p>12:10 PM Wednesday followed by Lunch<br />
-    5:30 PM Sunday</p>
+    <h2>Join us!</h2>
+    <p>12:10 PM Wednesday for Lunch<br />
+    5:30 PM Sunday for Weekend Mass</p>
     <h2>Visit Us!</h2>
     <p>9-5 Monday - Friday <br />
     4-8 Sunday <br />
     (817) 555-1234</p>
-    <p>1010 Benge Street <br />
-    Arlington, Texas 76013</p>
+    <p><a href="<?php get_bloginfo('url'); ?>/location">1010 Benge Street <br />
+    Arlington, Texas 76013</a></p>
     <div id="calendar-list">
       <h2>Upcoming Events</h2>
       <ul>
