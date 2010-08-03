@@ -46,7 +46,7 @@
         <td>
      <div class="footitem">
       <span class="foothead"><a href="<?php echo $blogurl ?>/links">LINKS</a></span>
-      <ul>
+     <ul>
         <li><a href="http://www.uta.edu">UTA</a></li>
         <li><a href="http://www.fwyam.org">Young Adult Ministry</a></li>
         <li><a href="http://www.yadarlington.org">Arlington Young Adults</a></li>
