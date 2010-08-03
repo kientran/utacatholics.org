@@ -1,68 +1,44 @@
-/* line 6, ../src/home.scss */
-#top-sidebar {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 310px;
-}
-/* line 138, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #top-sidebar {
-  overflow-x: hidden;
-}
-
-/* line 10, ../src/home.scss */
-#top-main {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 630px;
-}
-/* line 138, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #top-main {
-  overflow-x: hidden;
-}
-
-/* line 16, ../src/home.scss */
-#top-main img {
+/* line 7, ../src/home.scss */
+#article-container img {
   border: 4px solid #d0a635;
 }
-/* line 19, ../src/home.scss */
-#top-main table {
+/* line 10, ../src/home.scss */
+#article-container table {
   margin-top: 1em;
   width: 100%;
 }
-/* line 22, ../src/home.scss */
-#top-main table td {
+/* line 13, ../src/home.scss */
+#article-container table td {
   padding: 0 10px 0 0;
   width: 200px;
 }
-/* line 25, ../src/home.scss */
-#top-main table td img {
+/* line 16, ../src/home.scss */
+#article-container table td img {
   width: 194px;
   height: 194px;
 }
-/* line 30, ../src/home.scss */
-#top-main table td.td-last {
+/* line 21, ../src/home.scss */
+#article-container table td.td-last {
   padding-right: 10px;
 }
 
-/* line 37, ../src/home.scss */
+/* line 28, ../src/home.scss */
 #calendar-list ul {
   list-style: none;
   padding-left: 0;
 }
-/* line 40, ../src/home.scss */
+/* line 31, ../src/home.scss */
 #calendar-list ul li {
   padding-bottom: 1em;
 }
 
-/* line 46, ../src/home.scss */
+/* line 37, ../src/home.scss */
 #smallboxes {
   height: 200px;
   margin: 1em 0;
 }
 
-/* line 51, ../src/home.scss */
+/* line 42, ../src/home.scss */
 .box {
   float: left;
   padding: 0 12px 0 0;
@@ -71,7 +47,7 @@
   overflow: hidden;
   position: relative;
 }
-/* line 59, ../src/home.scss */
+/* line 50, ../src/home.scss */
 .box img {
   float: left;
   position: absolute;
@@ -80,18 +56,18 @@
   width: 194px;
   height: 194px;
 }
-/* line 67, ../src/home.scss */
+/* line 58, ../src/home.scss */
 .box a:hover {
   color: white;
   text-decoration: none;
 }
 
-/* line 72, ../src/home.scss */
+/* line 63, ../src/home.scss */
 .box.last {
   padding-right: 5px;
 }
 
-/* line 75, ../src/home.scss */
+/* line 66, ../src/home.scss */
 .cover {
   float: left;
   position: absolute;
@@ -107,7 +83,7 @@
   /* For IE 8 */
   -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
-/* line 89, ../src/home.scss */
+/* line 80, ../src/home.scss */
 .cover span, .cover h2, .cover p {
   margin: .5em;
   display: block;
