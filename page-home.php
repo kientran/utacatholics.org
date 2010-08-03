@@ -11,7 +11,7 @@ get_header('home'); ?>
 <div id="article-container">
     <img src='<?php bloginfo( 'template_url' ); ?>/images/main-graphic3.jpg' />
     <div id="smallboxes">
-      <div class="box"><a href="#">
+      <div class="box"><a href="/events">
         <img src='<?php bloginfo( 'template_url' ); ?>/images/action-graphic-cartwheel.jpg' />
         <div class="cover">
           <span>Events</span>
@@ -23,7 +23,7 @@ get_header('home'); ?>
           <span>Photos</span>
         </div></a>
       </div>
-      <div class="box last"><a href="#">
+      <div class="box last"><a href="/staff">
         <img src='<?php bloginfo( 'template_url' ); ?>/images/action-graphic-jumping.jpg' />
         <div class="cover">
           <h2>Staff</h2>
