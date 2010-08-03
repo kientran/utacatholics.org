@@ -47,19 +47,19 @@ get_header(); ?>
     <table>
       <tr>
         <td>Name</td>
-        <td><input name="contact_name" type="text" id="contact_name" style="width:300px" /></td>
+        <td><input name="contact_name" type="text" id="contact_name" style="width:100%" /></td>
       </tr>
       <tr>
         <td>Email</td>
-        <td><input name="contact_email" type="email" id="contact_email" style="width:300px" /></td>
+        <td><input name="contact_email" type="email" id="contact_email" style="width:100%" /></td>
       </tr>
       <tr>
         <td>Phone</td>
-        <td><input name="contact_phone" type="tel" id="contact_phone" style="width:300px" /></td>
+        <td><input name="contact_phone" type="tel" id="contact_phone" style="width:100%" /></td>
       </tr>
       <tr>
         <td>Student ID</td>
-        <td><input name="contact_studentid" type='number' id="contact_studentid" style="width:300px"></td>
+        <td><input name="contact_studentid" type='number' id="contact_studentid" style="width:100%"></td>
       </tr>
       <tr>
         <td colspan="2" align="center"><input type="submit" name="Submit" value="Submit" />
