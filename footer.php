@@ -8,7 +8,7 @@
         <td>
     <div class="footitem" id="home">
       <span class="foothead"><a href="<?php echo $blogurl ?>">HOME</a></span> 
-      Join us at 12:30pm Wednesday for Mass and Lunch or 5:30pm Sunday for weekend Mass
+      Join us at 12:30pm Wednesday for Lunch or 5:30pm Sunday for weekend Mass
     </div>
         </td>
         <td>
@@ -59,7 +59,7 @@
           <span class="foothead"><a href="#">CONTACT</a></span>
             1010 Benge Street<br />
             Arlington, TX 76013<br />
-            (817) 555 1234
+            (817) 460-1155 
           </div>  
         </td>
       <tr>

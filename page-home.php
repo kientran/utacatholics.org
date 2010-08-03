@@ -44,7 +44,7 @@ get_header('home'); ?>
     <h2>Visit Us!</h2>
     <p>9-5 Monday - Friday <br />
     4-8 Sunday <br />
-    (817) 555-1234</p>
+    (817) 460-1155</p>
     <p><a href="<?php get_bloginfo('url'); ?>/location">1010 Benge Street <br />
     Arlington, Texas 76013</a></p>
     <div id="calendar-list">
