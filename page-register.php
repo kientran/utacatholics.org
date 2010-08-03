@@ -59,7 +59,7 @@ get_header(); ?>
       </tr>
       <tr>
         <td>Student ID</td>
-        <td><input name="contact_studentid" id="contact_studentid" style="width:300px"></td>
+        <td><input name="contact_studentid" type='number' id="contact_studentid" style="width:300px"></td>
       </tr>
       <tr>
         <td colspan="2" align="center"><input type="submit" name="Submit" value="Submit" />
