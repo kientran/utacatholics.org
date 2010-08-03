@@ -36,7 +36,7 @@
   <div id="actionbuttons">
     New Student?<br />
     <a href="#" class="awesome blue" id="registernow">Register now</a>
-    <a href="#" class="awesome blue" id="joinfacebook">Facebook</a>
+    <a href="http://www.facebook.com/group.php?gid=12933052751" class="awesome blue" id="joinfacebook">Facebook</a>
   </div>
   <nav>
     <?php get_template_part( 'navigation'); ?>  
