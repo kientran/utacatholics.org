@@ -420,7 +420,7 @@ header#page-header div.container div#actionbuttons {
   text-align: center;
 }
 /* line 95, ../src/screen.scss */
-header#page-header div.container div#actionbuttons a:hover {
+header#page-header div.container div#actionbuttons a:hover, header#page-header div.container div#actionbuttons a:visited {
   color: white;
   text-decoration: none;
 }
