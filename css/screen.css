@@ -142,14 +142,14 @@ body.two-col #content div.container #sidebar, body.two-col #actionbuttons {
   overflow-x: hidden;
 }
 /* line 41, ../src/screen.scss */
-body.two-col #content div.container article, body.two-col #logo {
+body.two-col #logo, body.two-col #article-container {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 630px;
 }
 /* line 138, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.two-col #content div.container article, * html body.two-col #logo {
+* html body.two-col #logo, * html body.two-col #article-container {
   overflow-x: hidden;
 }
 

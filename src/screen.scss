@@ -38,7 +38,7 @@ body.two-col {
     $sidebar-columns: floor($blueprint-grid-columns / 3);
     @include column($sidebar-columns, true);
   }
-  #content div.container article, #logo {
+  #logo, #article-container {
     $content-columns: ceil(2 * $blueprint-grid-columns / 3);
     @include column($content-columns); 
   } 
