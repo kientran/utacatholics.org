@@ -1,12 +1,13 @@
 </div></div> <!-- #wrap --> <!-- #main -->
 
+<?php $blogurl = get_bloginfo('url'); ?>
 <footer id="site-footer">
   <div class="container">
     <table>
       <tr>
         <td>
     <div class="footitem" id="home">
-      <span class="foothead"><a href="#">HOME</a></span> 
+      <span class="foothead"><a href="<?php echo $blogurl ?>">HOME</a></span> 
       Join us at 12:30pm Wednesday for Mass and Lunch or 5:30pm Sunday for weekend Mass
     </div>
         </td>
@@ -14,10 +15,10 @@
     <div class="footitem">
       <span class="foothead"><a href="#">ABOUT</a></span> 
       <ul>
-        <li><a href="#">About the UCC</a></li>
-        <li><a href="#">Staff</a></li>
-        <li><a href="#">Pastoral Council</a></li>
-        <li><a href="#">Location</a></li>
+        <li><a href="<?php echo $blogurl ?>/links#">About the UCC</a></li>
+        <li><a href="<?php echo $blogurl ?>/staff">Staff</a></li>
+        <li><a href="<?php echo $blogurl ?>/pastoral-council">Pastoral Council</a></li>
+        <li><a href="<?php echo $blogurl ?>/map">Location</a></li>
       </ul>
     </div>
         </td>
@@ -25,9 +26,9 @@
      <div class="footitem">
       <span class="foothead"><a href="#">EVENTS</a></span>
       <ul>
-        <li><a href="#">Mass Schedule</a></li>
-        <li><a href="#">Bible Studies</a></li>
-        <li><a href="#">Ministry</a></li>
+        <li><a href="<?php echo $blogurl ?>/mass">Mass Schedule</a></li>
+        <li><a href="<?php echo $blogurl ?>/scripture-study">Bible Studies</a></li>
+        <li><a href="<?php echo $blogurl ?>/ministry">Ministry</a></li>
       </ul>
     </div>
         </td>
@@ -44,12 +45,12 @@
         </td>
         <td>
      <div class="footitem">
-      <span class="foothead"><a href="#">LINKS</a></span>
+      <span class="foothead"><a href="<?php echo $blogurl ?>/links#">LINKS</a></span>
       <ul>
-        <li><a href="#">UTA</a></li>
-        <li><a href="#">Young Adult Ministry</a></li>
-        <li><a href="#">Arlington Young Adults</a></li>
-        <li><a href="#">Facebook</a></li>
+        <li><a href="http://www.uta.edu">UTA</a></li>
+        <li><a href="http://www.fwyam.org">Young Adult Ministry</a></li>
+        <li><a href="http://www.yadarlington.org">Arlington Young Adults</a></li>
+        <li><a href="http://www.facebook.com/group.php?gid=12933052751">Facebook</a></li>
       </ul>
     </div>
         </td>
