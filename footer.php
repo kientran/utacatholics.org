@@ -13,7 +13,7 @@
         </td>
         <td>
     <div class="footitem">
-      <span class="foothead"><a href="#">ABOUT</a></span> 
+      <span class="foothead"><a href="<?php echo $blogurl ?>/about">ABOUT</a></span> 
       <ul>
         <li><a href="<?php echo $blogurl ?>/links#">About the UCC</a></li>
         <li><a href="<?php echo $blogurl ?>/staff">Staff</a></li>
@@ -24,7 +24,7 @@
         </td>
         <td>
      <div class="footitem">
-      <span class="foothead"><a href="#">EVENTS</a></span>
+      <span class="foothead"><a href="<?php echo $blogurl ?>/events">EVENTS</a></span>
       <ul>
         <li><a href="<?php echo $blogurl ?>/mass">Mass Schedule</a></li>
         <li><a href="<?php echo $blogurl ?>/scripture-study">Bible Studies</a></li>
@@ -34,7 +34,7 @@
         </td>
         <td>
      <div class="footitem">
-      <span class="foothead"><a href="#">MEDIA</a></span>
+      <span class="foothead"><a href="<?php echo $blogurl ?>/media">MEDIA</a></span>
       <ul>
         <li><a href="#">Photos</a></li>
         <li><a href="#">Videos</a></li>
@@ -56,7 +56,7 @@
         </td>
         <td>
           <div class="footitem last">
-          <span class="foothead"><a href="#">CONTACT</a></span>
+          <span class="foothead"><a href="<?php echo $blogurl ?>/contact">CONTACT</a></span>
             1010 Benge Street<br />
             Arlington, TX 76013<br />
             (817) 460-1155 
