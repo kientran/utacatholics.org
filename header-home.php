@@ -42,10 +42,10 @@
 <div id="wrap"><div id="main">
 <header id="page-header">
   <div class="container">
-  <div id="logo"><a href="<?php get_bloginfo('url'); ?>">University Catholic Community</a></div>
+  <div id="logo"><a href="<?php echo get_bloginfo('url'); ?>">University Catholic Community</a></div>
   <div id="actionbuttons">
     New Student?<br />
-    <a href="#" class="awesome blue" id="registernow">Register now</a>
+    <a href="<?php echo get_bloginfo('url'); ?>/register" class="awesome blue" id="registernow">Register now</a>
     <a href="http://www.facebook.com/group.php?gid=12933052751" class="awesome blue" id="joinfacebook">Facebook</a>
   </div>
   <nav>

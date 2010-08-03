@@ -26,6 +26,8 @@
   <![endif]-->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+  <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.simplemodal-1.3.5.min.js" type="text/javascript"></script>
+  <script src="<?php bloginfo( 'template_url' ); ?>/js/register-student.js" type="text/javascript"></script>
 </head>
 
 <body class="bp two-col">
@@ -35,7 +37,7 @@
   <div id="logo"><a href="<?php echo get_bloginfo( 'url' );?>">University Catholic Community</a></div>
   <div id="actionbuttons">
     New Student?<br />
-    <a href="#" class="awesome blue" id="registernow">Register now</a>
+    <a href="<?php echo get_bloginfo( 'url'); ?>/register" class="awesome blue" id="registernow">Register now</a>
     <a href="http://www.facebook.com/group.php?gid=12933052751" class="awesome blue" id="joinfacebook">Facebook</a>
   </div>
   <nav>
