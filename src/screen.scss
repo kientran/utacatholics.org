@@ -58,6 +58,7 @@ body {
     text-decoration: none;
   }
   a:hover {
+    color: white;
     text-decoration: underline;
   }
 
@@ -173,6 +174,9 @@ footer#site-footer {
   a {
     color: #ccc;
   }
+  a:hover {
+    color: white;
+  }
   div.container {
     padding-top: 1em;
     table {
@@ -187,6 +191,9 @@ footer#site-footer {
           display: block;
           a {
             color: #f1c657;
+          }
+          a:hover {
+            color: white;
           }
         }
         ul {
