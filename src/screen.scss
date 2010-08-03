@@ -92,7 +92,7 @@ header#page-header {
     }
     div#actionbuttons {
       text-align: center;
-      a:hover {
+      a:hover, a:visited {
         color: white;
         text-decoration: none;
       }
