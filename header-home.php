@@ -23,7 +23,7 @@
   <link href="<?php bloginfo( 'template_url' ); ?>/css/home.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="<?php bloginfo( 'template_url' ); ?>/css/print.css" media="print" rel="stylesheet" type="text/css" />
   <!--[if lt IE 8]>
-      <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="<?php bloginfo( 'template_url' ); ?>css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
@@ -49,14 +49,7 @@
     <a href="#" class="awesome blue" id="joinfacebook">Facebook</a>
   </div>
   <nav>
-    <ul>
-      <li class="nav home"><a href="#" class="active"><span>HOME</span><br />Return to the start</a></li>
-      <li class="nav about"><a href="#"><span>ABOUT</span><br />Learn who we are</a></li>
-      <li class="nav events"><a href="#"><span>EVENTS</span><br />Join our activities</a></li>
-      <li class="nav media"><a href="#"><span>MEDIA</span><br />See our pictures</a></li>
-      <li class="nav links"><a href="#"><span>LINKS</span><br />Visit our firends</a></li>
-      <li class="nav contact"><a href="#"><span>CONTACT</span><br />Meet us in person</a></li>
-    </ul>
+    <?php get_template_part( 'navigation'); ?>  
   </nav>
   </div>
 </header>
