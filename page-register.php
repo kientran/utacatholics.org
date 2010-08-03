@@ -51,11 +51,11 @@ get_header(); ?>
       </tr>
       <tr>
         <td>Email</td>
-        <td><input name="contact_email" type="text" id="contact_email" style="width:300px" /></td>
+        <td><input name="contact_email" type="email" id="contact_email" style="width:300px" /></td>
       </tr>
       <tr>
         <td>Phone</td>
-        <td><input name="contact_phone" type="text" id="contact_phone" style="width:300px" /></td>
+        <td><input name="contact_phone" type="tel" id="contact_phone" style="width:300px" /></td>
       </tr>
       <tr>
         <td>Student ID</td>

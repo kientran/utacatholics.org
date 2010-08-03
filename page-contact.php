@@ -46,15 +46,15 @@ get_header(); ?>
     <table>
       <tr>
         <td>Name</td>
-        <td><input name="contact_name" type="text" id="contact_name" style="width:145px" /></td>
+        <td><input name="contact_name" type="text" id="contact_name" style="width:300px" /></td>
       </tr>
       <tr>
         <td>Email</td>
-        <td><input name="contact_email" type="text" id="contact_email" style="width:145px" /></td>
+        <td><input name="contact_email" type="email" id="contact_email" style="width:300px" /></td>
       </tr>
       <tr>
         <td>Phone</td>
-        <td><input name="contact_phone" type="text" id="contact_phone" style="width:145px" /></td>
+        <td><input name="contact_phone" type="tel" id="contact_phone" style="width:300px" /></td>
       </tr>
       <tr>
         <td>Subject</td>
