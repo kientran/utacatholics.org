@@ -22,12 +22,10 @@
   <link href="<?php bloginfo( 'template_url' ); ?>/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="<?php bloginfo( 'template_url' ); ?>/css/print.css" media="print" rel="stylesheet" type="text/css" />
   <!--[if lt IE 8]>
-      <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+      <link href="<?php bloginfo( 'template_url' ); ?>/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-  <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.simplemodal-1.3.5.min.js" type="text/javascript"></script>
-  <script src="<?php bloginfo( 'template_url' ); ?>/js/register-student.js" type="text/javascript"></script>
 </head>
 
 <body class="bp two-col">
