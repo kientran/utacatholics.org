@@ -155,12 +155,15 @@ header#page-header {
       header {
       }
       ul {
-        font-size: 1.2em;
         list-style: none;
         padding-left: 0;
       }
     }
   }
+}
+
+p.event_time {
+  padding: 0px;
 }
 
 footer#site-footer {
