@@ -48,9 +48,9 @@ get_header('home'); ?>
     <p><a href="<?php get_bloginfo('url'); ?>/location">1010 Benge Street <br />
     Arlington, Texas 76013</a></p>
     <div id="calendar-list">
-      <h2>Upcoming Events</h2>
-<?php gcal_parse_feed(); ?>
-          </div> 
+      <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar()) ; ?>
+
+    </div> 
 
   </div>
 
