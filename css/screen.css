@@ -495,7 +495,7 @@ header#page-header div.container nav ul li {
 
 /* line 165, ../src/screen.scss */
 p.event_time {
-  padding: 0px;
+  margin: 0px;
 }
 
 /* line 169, ../src/screen.scss */
