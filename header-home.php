@@ -27,8 +27,10 @@
   <![endif]-->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+  <Script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.qtip-1.0.min.js" type="text/javascript"></script>
   <script>
     $(document).ready(function () {
+      $('a[title]').qtip();
       $('.box').hover(function() {
         $('.cover', this).stop().animate({height:'125px'},{queue:false,duration: 250});
       }, function() {
