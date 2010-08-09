@@ -49,18 +49,8 @@ get_header('home'); ?>
     Arlington, Texas 76013</a></p>
     <div id="calendar-list">
       <h2>Upcoming Events</h2>
-      <ul>
-        <li><a href="#">This Event</a><br>
-        January 1 | 10:00am - 11:00am
-        </li>
-        <li><a href="#">This Event</a><br>
-        March 1 | 10:00am - 11:00am
-        </li>
-        <li><a href="#">This Event</a><br>
-        March 1 - 10:00am - 11:00am
-        </li>
-      </ul>
-    </div> 
+<?php gcal_parse_feed(); ?>
+          </div> 
 
   </div>
 
