@@ -3,16 +3,7 @@
 
 $accent_color: #d0a635;
 
-#top-sidebar {
-    $sidebar-columns: floor($blueprint-grid-columns / 3);
-    @include column($sidebar-columns, true);
-}
-#top-main {
-    $content-columns: ceil(2 * $blueprint-grid-columns / 3);
-    @include column($content-columns);
-}
-
-#top-main {
+#article-container {
   img {
     border: 4px solid $accent_color;
   }

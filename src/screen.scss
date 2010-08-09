@@ -38,7 +38,7 @@ body.two-col {
     $sidebar-columns: floor($blueprint-grid-columns / 3);
     @include column($sidebar-columns, true);
   }
-  #content div.container article, #logo {
+  #logo, #article-container {
     $content-columns: ceil(2 * $blueprint-grid-columns / 3);
     @include column($content-columns); 
   } 
@@ -58,6 +58,7 @@ body {
     text-decoration: none;
   }
   a:hover {
+    color: white;
     text-decoration: underline;
   }
 
@@ -92,7 +93,7 @@ header#page-header {
     }
     div#actionbuttons {
       text-align: center;
-      a:hover {
+      a:hover, a:visited {
         color: white;
         text-decoration: none;
       }
@@ -176,6 +177,9 @@ footer#site-footer {
   a {
     color: #ccc;
   }
+  a:hover {
+    color: white;
+  }
   div.container {
     padding-top: 1em;
     table {
@@ -190,6 +194,9 @@ footer#site-footer {
           display: block;
           a {
             color: #f1c657;
+          }
+          a:hover {
+            color: white;
           }
         }
         ul {
