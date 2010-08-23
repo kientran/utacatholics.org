@@ -8,7 +8,7 @@
         <td>
     <div class="footitem" id="home">
       <span class="foothead"><a href="<?php echo $blogurl ?>">HOME</a></span> 
-      Join us at 12:30pm Wednesday for Lunch or 5:30pm Sunday for weekend Mass
+      Join us at 12:00pm Wednesday for Lunch or 5:30pm Sunday for weekend Mass
     </div>
         </td>
         <td>
@@ -36,8 +36,8 @@
      <div class="footitem">
       <span class="foothead"><a href="<?php echo $blogurl ?>/media">MEDIA</a></span>
       <ul>
-        <li><a href="#">Photos</a></li>
-        <li><a href="#">Videos</a></li>
+        <li><a href="<?php echo $blogurl ?>/media">Photos</a></li>
+        <li><a href="<?php echo $blogurl ?>/media">Videos</a></li>
         <li><a href="<?php echo $blogurl ?>/weekly-bulletin">Weekly Bulletin</a></li>
         <li><a href="<?php echo $blogurl ?>/blog">Minister's Minute</a></li>
       </ul>

@@ -11,16 +11,18 @@ get_header('home'); ?>
 <div id="article-container">
     <img src='<?php bloginfo( 'template_url' ); ?>/images/main-graphic3.jpg' />
     <div id="smallboxes">
-      <div class="box"><a href="/events">
+      <div class="box"><a href="http://www.google.com/calendar/embed?src=universitycatholiccommunity%40gmail.com&ctz=America/Chicago">
         <img src='<?php bloginfo( 'template_url' ); ?>/images/action-graphic-cartwheel.jpg' />
         <div class="cover">
-          <span>Events</span>
+          <h2>Events</h2>
+          <p>Our Calendar of Events</p>
         </div></a>
       </div>
-      <div class="box"><a href="#">
+      <div class="box"><a href="/media">
         <img src='<?php bloginfo( 'template_url' ); ?>/images/action-graphic-blog.jpg' />
         <div class="cover">
-          <span>Photos</span>
+          <h2>Media</h2>
+          <p>Weekly Bulletin, Photos and Video</p>
         </div></a>
       </div>
       <div class="box last"><a href="/staff">
@@ -39,7 +41,7 @@ get_header('home'); ?>
   </div>
   <div id="sidebar">
     <h2>Join us!</h2>
-    <p>12:10 PM Wednesday for Lunch<br />
+    <p>12:00 PM Wednesday for Lunch<br />
     5:30 PM Sunday for Weekend Mass</p>
     <h2>Visit Us!</h2>
     <p>9-5 Monday - Friday <br />
