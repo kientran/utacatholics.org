@@ -9,7 +9,7 @@ get_header('home'); ?>
 <div class="container">
 
 <div id="article-container">
-    <img src='<?php bloginfo( 'template_url' ); ?>/images/main-graphic3.jpg' />
+    <img src='<?php bloginfo( 'template_url' ); ?>/images/ucc-main.jpg' />
     <div id="smallboxes">
       <div class="box"><a href="http://www.google.com/calendar/embed?src=universitycatholiccommunity%40gmail.com&ctz=America/Chicago">
         <img src='<?php bloginfo( 'template_url' ); ?>/images/action-graphic-cartwheel.jpg' />
