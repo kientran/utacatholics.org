@@ -111,6 +111,7 @@ header#page-header {
       }
       ul {
         width: $blueprint-container-size - 2px ;
+        background-color: #f1c657;
         @include linear-gradient(color-stops(#f1c657, #d0a635));
         filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#f1c657, endColorstr=#d0a635);
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#f1c657, endColorstr=#d0a635)";
@@ -167,6 +168,7 @@ p.event_time {
 }
 
 footer#site-footer {
+  background-color: #001122;
   @include linear-gradient(color-stops(#001122, #002244));
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#001122, endColorstr=#002244);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#001122, endColorstr=#002244)";
