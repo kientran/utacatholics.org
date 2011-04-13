@@ -39,7 +39,7 @@
         <li><a href="<?php echo $blogurl ?>/media">Photos</a></li>
         <li><a href="<?php echo $blogurl ?>/media">Videos</a></li>
         <li><a href="<?php echo $blogurl ?>/weekly-bulletin">Weekly Bulletin</a></li>
-        <li><a href="<?php echo $blogurl ?>/blog">Minister's Minute</a></li>
+        <li><a href="<?php echo $blogurl ?>/ministerminute">Minister's Minute</a></li>
       </ul>
     </div>
         </td>
