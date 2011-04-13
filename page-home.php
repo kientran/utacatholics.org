@@ -44,7 +44,7 @@ get_header('home'); ?>
     <p>12:00 PM Wednesday for Lunch<br />
     5:30 PM Sunday for Weekend Mass</p>
     <h2>Visit Us!</h2>
-    <p>9-5 Monday - Friday <br />
+    <p>12-5 Monday - Friday <br />
     4-8 Sunday <br />
     (817) 460-1155</p>
     <p><a href="<?php get_bloginfo('url'); ?>/location">1010 Benge Street <br />
