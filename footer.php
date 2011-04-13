@@ -27,7 +27,7 @@
       <span class="foothead"><a href="<?php echo $blogurl ?>/events">EVENTS</a></span>
       <ul>
         <li><a href="<?php echo $blogurl ?>/mass">Mass Schedule</a></li>
-        <li><a href="<?php echo $blogurl ?>/scripture-study">Bible Studies</a></li>
+        <li><a href="<?php echo $blogurl ?>/scripture-study">Faith Sharing</a></li>
         <li><a href="<?php echo $blogurl ?>/ministry">Ministry</a></li>
       </ul>
     </div>
